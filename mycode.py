@@ -18,13 +18,22 @@ music2 = input("I play a musical instrument well.")
 
 tech3 = input("I can code well")
 
+outdoor3 = input("I enjoy camping")
+
+music3 = input("I enjoy music")
+
+tech4 = input("I am proficient in computing")
+
+outdoor4 = input("I enjoy physical activity")
+
+music4 = input("I can read musical scores")
 
 
 print()
 
-if tech_final > outdoor_final and tech_final > music_final:
+if tech_final > outdoor_final and music_final:
   print("You might be suitable for Infocomm club!")
-elif outdoor_final > music_final:
+if outdoor_final > music_final and tech_final:
   print("You might be stuiable for ODAC!")
 else:
   print("You might be suitable for Band!")
